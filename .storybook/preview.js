@@ -21,7 +21,6 @@ addDecorator(storyWrapper);
 addDecorator(withInfo); 
 addParameters({info: { inline: true, header: false}})
 
-
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {

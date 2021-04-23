@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "stable"
+cache:P
+  directories:
+  _ node_modules
+env:
+  - CI=true
