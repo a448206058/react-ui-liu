@@ -2,6 +2,8 @@
 
 耶～，如果它能对你有点帮助的话，这将是对我最大的鼓励
 
+你可以直接通过npm install react-ui-liu
+
 ## Available Scripts
 
 In the project directory, you can run:
