@@ -28,7 +28,6 @@
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
     "react-transition-group": "^4.4.1",
-    "node-sass": "^5.0.0",
     "web-vitals": "^1.1.1"
   },
   "peerDependencies": {
@@ -102,6 +101,7 @@
     "@types/storybook__addon-info": "^5.2.3",
     "cross-env": "^7.0.3",
     "husky": "^6.0.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^17.0.2",
