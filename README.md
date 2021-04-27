@@ -6,6 +6,8 @@
 
 通过 storybook 构建生成的文档
 
+通过 docker + jenkins + github 完成自动化构建
+
 
 ## Available Scripts
 
