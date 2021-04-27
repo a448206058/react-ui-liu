@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 这是基于react-typescript 的ui组件库
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+耶～，如果它能对你有点帮助的话，这将是对我最大的鼓励
 
 ## Available Scripts
 
