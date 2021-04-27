@@ -8,7 +8,6 @@
 
 通过 docker + jenkins + github 完成自动化构建
 
-
 ## Available Scripts
 
 In the project directory, you can run:
