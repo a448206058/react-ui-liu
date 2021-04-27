@@ -9,6 +9,7 @@ storiesOf('Welcome page', module)
                 <h1>欢迎来到 react-ui-liu 组件库</h1>
                 <p>这是一套react-type的组件库</p>
                 <h3>安装试试</h3>
+                
                 <code>
                     npm install react-ui-liu --save
                 </code>
