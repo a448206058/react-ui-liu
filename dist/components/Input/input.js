@@ -34,9 +34,7 @@ import Icon from '../Icon/icon';
  */
 export var Input = function (props) {
     var _a;
-    // 取出各种的属性
     var disabled = props.disabled, size = props.size, icon = props.icon, prepend = props.prepend, append = props.append, style = props.style, restProps = __rest(props, ["disabled", "size", "icon", "prepend", "append", "style"]);
-    // 根据属性计算不同的 className
     var cnames = classNames('viking-input-wrapper', (_a = {},
         _a["input-size-" + size] = size,
         _a['is-disabled'] = disabled,
@@ -54,9 +52,7 @@ export var Input = function (props) {
         delete restProps.defaultValue;
         restProps.value = fixControlledValue(props.value);
     }
-    return (
-    // 根据属性判断是否要添加特定的节点
-    React.createElement("div", { className: cnames, style: style },
+    return (React.createElement("div", { className: cnames, style: style },
         prepend && React.createElement("div", { className: "viking-input-group-prepend" }, prepend),
         icon && React.createElement("div", { className: "icon-wrapper" },
             React.createElement(Icon, { icon: icon, title: "title-" + icon })),
