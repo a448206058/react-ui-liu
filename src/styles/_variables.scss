@@ -286,3 +286,53 @@ $progress-bg:                       $gray-200 !default;
 $progress-border-radius:            $border-radius !default;
 $progress-bar-color:                $white !default;
 $progress-bar-transition:           width .6s ease !default;
+
+$spacing: 5px;
+@for $i from 0 through 10 {
+  .m-#{$i} {
+    margin: $spacing * $i !important;
+  }
+  .p-#{$i} {
+    padding: $spacing * $i !important;
+  }
+  .mt-#{$i} {
+    margin-top: $spacing * $i !important;
+  }
+  .mr-#{$i} {
+    margin-right: $spacing * $i !important;
+  }
+  .mb-#{$i} {
+    margin-bottom: $spacing * $i !important;
+  }
+  .ml-#{$i} {
+    margin-left: $spacing * $i !important;
+  }
+  .pt-#{$i} {
+    padding-top: $spacing* $i !important;
+  }
+  .pr-#{$i} {
+    padding-right: $spacing * $i !important;
+  }
+  .pb-#{$i} {
+    padding-bottom: $spacing * $i !important;
+  }
+  .pl-#{$i} {
+    padding-left: $spacing * $i !important;
+  }
+  .mx-#{$i} {
+    margin-left: $spacing * $i !important;
+    margin-right: $spacing * $i !important;
+  }
+  .my-#{$i} {
+    margin-top: $spacing * $i !important;
+    margin-bottom: $spacing * $i !important;
+  }
+  .px-#{$i} {
+    padding-left: $spacing * $i !important;
+    padding-right: $spacing * $i !important;
+  }
+  .py-#{$i} {
+    padding-top: $spacing * $i !important;
+    padding-bottom: $spacing * $i !important;
+  }
+}

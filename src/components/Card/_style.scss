@@ -1,0 +1,67 @@
+.card {
+    // position: relative;
+    // display: inline-block;
+    // font-weight: $btn-font-weight;
+    // line-height: $btn-line-height;
+    // color: $body-color;
+    // white-space: nowrap;
+    // text-align: center;
+    // vertical-align: middle;
+    // background-image: none;
+    // border: $btn-border-width solid transparent;
+    // @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $border-radius);
+    // box-shadow: 0 2px 12px 0 #ebeef5;
+    // cursor: pointer;
+    // transition: $btn-transition;
+
+    border-radius: 4px;
+    border: 1px solid #f0f0f0;
+    background-color: #fff;
+    overflow: hidden;
+    color: #303133;
+    transition: .3s;
+    box-shadow: 0 2px 12px 0 #ebeef5;
+
+    &.disabled,
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: $btn-disabled-opacity;
+        box-shadow: none;
+        > * {
+            pointer-events: none;
+        }
+    }
+}
+
+.card-lg {
+    width: 100%;
+    min-width: 680px;
+}
+
+.card-sm {
+    width: 400px;
+}
+
+.card-shadow-never {
+    box-shadow: unset;
+}
+
+.card-default {
+    width: 480px;
+}
+
+.liu-card-head {
+    min-height: 48px;
+    margin-bottom: -1px;
+    padding: 18px 20px;
+    color: #000000d9;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-lg;
+    background: 0 0;
+    border-bottom: 1px solid #ebeef5;
+    border-radius: 2px 2px 0 0;
+}
+
+.liu-card-body {
+    padding: 20px;
+}

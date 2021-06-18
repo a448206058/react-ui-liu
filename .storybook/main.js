@@ -10,6 +10,7 @@ const findStories = () => {
   let list = ["../src/welcome.stories.tsx"]
   list.push("../src/components/Button/button.stories.tsx")
   list.push("../src/components/Input/input.stories.tsx")
+  list.push("../src/components/Card/card.stories.tsx")
   list.push("../src/components/AutoComplete/autoComplete.stories.tsx")
   list.push("../src/components/Menu/menu.stories.tsx")
   list.push("../src/components/Upload/upload.stories.tsx")
